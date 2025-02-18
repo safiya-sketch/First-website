@@ -1,0 +1,194 @@
+header {
+    background-color: rgba(70,105,149, 0.5);
+    border-bottom: 1px solid #466995;
+    width: 100%;
+    z-index: 10;
+    margin: 0px;
+    padding: 50px;
+    text-align: center;
+    position: relative;
+    vertical-align: baseline;
+
+  }
+  
+  li:hover {
+    color: #DBE9EE;
+  }
+
+a {
+    color: white;
+    text-shadow: #FC0 1px 0 10px;
+}
+a:hover {
+    color: blue;
+    text-shadow: #FFF 1px 0 10px;
+}
+button:active {
+    color: #8B0000;
+}
+
+.share {
+    border: 1px solid LightGrey;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 40px 0px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    background-image: url('https://og.mangadex.org/og-image/manga/bb71e1b9-8773-4b44-85b2-68ed44d124eb');
+    background-size: contain;
+    background-position: center;
+    height: 200px;
+  }
+  
+  .share a {
+    background: red;
+    border: 1px solid red;
+    border-radius: 3px;
+    color: white;
+    display: inline-block;
+    margin: 10px;
+    padding: 14px;
+    text-decoration: none;
+    margin-top: 80px;
+  }
+  
+  .share a:hover {
+    background: white;
+    border: 1px solid red;
+    color: red;
+  }
+
+  body {
+    /* Old browsers */
+    background: #141E30;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(-45deg, #35577D, #141E30);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding: 0;
+    color: white;
+  }
+  
+  h1 {
+    color: #FFF !important;
+    font-size: 2em;
+    padding-top: 100px;
+    width: 100%;
+    font-family: Georgia;
+    text-align: center;
+    text-shadow: #FFF 1px 0 10px;
+
+  }
+  
+  h2 {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 100;
+    font-size: 22px;
+    line-height: 24px;
+    padding-bottom: 30px;
+    text-align: left;
+    width: 70%;
+    font-family: Georgia;
+  }
+  
+  p {
+    color: aliceblue;
+    line-height: 1.3em;
+    text-align: left;
+    width: 100%;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .byline {
+    font-family: Helvetica;
+    color: rgba(255, 255, 255, 0.5);
+    float: left;
+    font-size: 14px;
+    padding-left: 10px;
+    text-transform: uppercase;
+    margin-left: 10px;
+    margin-top: 33px;
+  }
+  
+  .caption {
+    display: block;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 14px;
+    margin-left: 20px;
+    padding: 10px;
+    position: relative;
+    top: 80%;
+    width: 60%;
+    background-color: white;
+    color: black;
+    opacity: 80%;
+  }
+  
+  .content {
+    padding: 40px;
+  }
+  
+  .image {
+    background-image: url('https://pbs.twimg.com/media/EagFJLHXsAAyUKe.jpg');
+    background-size: contain;
+    background-position: center;
+    height: 300px;
+  }
+  
+  .writer-img {
+    -webkit-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+    -moz-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+    box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+    float: left;
+    width: 90px;
+  }
+  
+
+  main {
+    margin-left: 40px;
+    margin-right: 20px;
+  }
+
+  .gallerie {
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+  }
+
+  nav ul { 
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+    text-align: center;
+} 
+ 
+nav li { 
+    display: inline-block; 
+    margin-right: 50px; /* Adjust the value as needed */
+} 
+ 
+nav a { 
+    text-decoration: none; 
+    color: white;
+    text-shadow: #FC0 1px 0 10px;
+
+} 
+
+.menu img {
+    border-radius: 50%;
+    width: 20%;
+    float: left;
+    margin-right: 500px;
+}
+
+.menu img:hover {
+    transform: translate(20px)
+}

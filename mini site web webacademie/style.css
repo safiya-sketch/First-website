@@ -1,0 +1,53 @@
+body {
+	height: 100%;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+    background: #141E30;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(-45deg, #35577D, #141E30);
+}
+
+h1 {
+	font-size: 32px;
+  font-family: Palatino, 'Palatino Linotype', serif;
+  color: rgb(46,105,163);
+}
+
+h2 {
+	font-size: 32px;
+  font-size: 56px;
+}
+
+.hero {
+	padding: 250px 0;
+	margin: 30px;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  background-image: url(https://media.senscritique.com/media/000021320960/300/reverend_insanity.webp); background-size: cover;
+  color: #ffffff;
+  text-align: center;
+  background-size: contain;
+  text-shadow: #FC0 1px 0 10px;
+}
+
+
+p {
+font-size: 2rem;
+}
+
+.hero a {
+	color: white;
+	font-size: 24px;
+  font-size: 1.25em;
+}
+
+.hero a:hover {
+    text-decoration: none;
+}
+
+#footer {
+  font-size: 0.75rem;
+}
+
